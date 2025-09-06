@@ -1,6 +1,6 @@
 let apiRoot: string = ''
 if (process.env.BUILD_MODE === 'production') {
-  apiRoot = ''
+  apiRoot = 'https://todolist-web-api.onrender.com'
 } else {
   apiRoot = 'http://localhost:8017'
 }
